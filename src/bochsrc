@@ -1,0 +1,9 @@
+megs: 32
+romimage: file=$BXSHARE/BIOS-bochs-latest
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+
+floppya: 1_44=kos.img,status=inserted
+boot: a
+log: bochsout
+mouse: enabled=0
+clock: sync=realtime
